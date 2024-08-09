@@ -13,3 +13,5 @@
 
 ## Observações:
 > Os arquivos que contém "plotlib" ao começo são as versões finais que plotam os gráficos pedidos nos exercícios, os outros arquivos são códigos que fiz para ter uma base inicial.
+
+> O chatGPT tende a gerar códigos ruins e mal feitos, porém é bacana usar para tirar dúvidas/pegar informações gastando menos tempo.
