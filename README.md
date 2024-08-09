@@ -6,3 +6,5 @@
 > Documentação do Matplotlib (https://matplotlib.org/stable/index.html)
 
 > Tutoriais de Python da W3Schools (https://www.w3schools.com/python/)
+
+> Quem não usa o ChatGPT pra estudar é maluco (https://chatgpt.com/")
