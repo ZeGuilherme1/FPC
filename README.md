@@ -1,3 +1,3 @@
-# Fundamentos de Programação de Computadores
+# 💻 Fundamentos de Programação de Computadores
 
 ## Alguns links úteis: 
