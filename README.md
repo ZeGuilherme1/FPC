@@ -10,3 +10,6 @@
 > Documentação da biblioteca Numpy (https://numpy.org/doc/stable/)
 
 > Quem não usa o ChatGPT pra estudar é maluco (https://chatgpt.com/")
+
+## Observações:
+> Os arquivos que contém "plotlib" ao começo são as versões finais que plotam os gráficos pedidos nos exercícios.
