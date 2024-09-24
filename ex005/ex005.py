@@ -1,11 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
-a_min, a_max = 1, 4.0
+a_min, a_max = 1, 4.0 # taxa de cresicmento populacional
 n_iteracoes = 1000      
 ultimo_n = 100
 x0 = 0.5
 
-a_valores = np.linspace(a_min, a_max, 10000)
+a_valores = np.linspace(a_min, a_max, 10000) # gera 10.000 valores igualmente espaçados entre a_min e a_max. cada valor de a representa uma taxa de crescimento
 plt.figure(figsize=(10, 7))
 
 for a in a_valores:
