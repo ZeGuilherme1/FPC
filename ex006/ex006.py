@@ -8,18 +8,18 @@ class Grafo:
         self.coordenadas = [(0, 0)] * qtd_nos
     
     def set_coord(self, no, x, y):
-        """Define as coordenadas (x, y) de um nó."""
+        # define as coordenadas (x, y) de um nó 
         if 0 <= no < self.qtd_nos:
             self.coordenadas[no] = (x, y)
     
     def add_aresta(self, no1, no2):
-        """Adiciona uma aresta entre no1 e no2."""
+        # adiciona uma aresta entre no1 e no2
         if 0 <= no1 < self.qtd_nos and 0 <= no2 < self.qtd_nos:
             self.adj_matrix[no1][no2] = 1
             self.adj_matrix[no2][no1] = 1 
     
     def del_no(self, no):
-        """Deleta um nó e todas as arestas conectadas a ele."""
+        # deleta um nó e todas as arestas conectadas a ele
         if 0 <= no < self.qtd_nos:
             # remove todas as conexões desse nó
             for i in range(self.qtd_nos):
@@ -28,13 +28,13 @@ class Grafo:
             self.coordenadas[no] = None  # remove as coordenadas do nó
     
     def del_aresta(self, no1, no2):
-        """Deleta a aresta entre no1 e no2."""
+        # deleta a aresta entre no1 e no2
         if 0 <= no1 < self.qtd_nos and 0 <= no2 < self.qtd_nos:
             self.adj_matrix[no1][no2] = 0
             self.adj_matrix[no2][no1] = 0  # Supondo grafo não direcionado
     
     def print_grafo(self):
-        """Imprime a matriz de adjacência e as coordenadas."""
+        # imprime a matriz de adjacência e as coordenadas
         print("Matriz de Adjacência:")
         for linha in self.adj_matrix:
             print(linha)
