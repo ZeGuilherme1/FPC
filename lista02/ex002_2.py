@@ -1,3 +1,4 @@
+# OK
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -5,7 +6,7 @@ def calcular(N):
     Nc = 0
     for i in range(N):
         x = -1.0 + 2.0 * np.random.rand()
-        y = -1.0 + 2.0 * np.random.rand()
+        y = -1.0 + 2.0  * np.random.rand()
         if (x**2 + y**2 < 1.0):
             Nc += 1
     prob = Nc / N
@@ -37,4 +38,4 @@ plt.xlabel('N (Número de pontos)')
 plt.ylabel('Erro de pi - pi_MC|')
 plt.title('Erro do cálculo de pi em função de N')
 plt.grid(True, which="both", ls="--")
-plt.show()
+plt.show()  

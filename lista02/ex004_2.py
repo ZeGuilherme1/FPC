@@ -1,3 +1,5 @@
+# Não faço ideia de como continuar os próximos itens desse exercício
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -11,7 +13,6 @@ intervalo = np.linspace(0, 2 * np.pi, 1000)
 
 y_fx = f(intervalo)
 y_gx = g(intervalo)
-
 
 
 plt.plot(intervalo, y_fx, label="f(x) = 1 + 1/2*sin^3(2x)")
